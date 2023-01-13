@@ -1,0 +1,15 @@
+app:
+  server:
+    address: "0.0.0.0:8080"
+    workers: 2
+  graphql:
+    version: 1.0.0-snapshot
+  redis:
+    url: "redis://localhost:6379"
+  asterisk:
+    ari:
+      url: "http://localhost:8088/ari"
+      username: "aris"
+      password: "aris"
+  database:
+    url: "postgres://postgres:poosan@localhost/diesel_demo"
